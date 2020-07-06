@@ -1,0 +1,9 @@
+<input [(ngModel)]="firstname" placeholder="FIRSTNAME"><br><br>
+<input [(ngModel)]="lastname" placeholder="LASTNAME"><br><br>
+<input [(ngModel)]="gitid" placeholder="GIT ID"><br><br>
+<input [(ngModel)]="linkedinid" placeholder="LINKED IN ID"><br><br>
+<app-stylebind [comingdata]="myinput"  (outgoingdata)="reciever($event)"></app-stylebind><br><br>
+<h3>{{gud?.firstName}}</h3><br><br>
+<h3>{{gud?.lastName}}</h3><br><br>
+<h3>{{gud?.guthubId}}</h3><br><br>
+<h3>{{gud?.linkedId}}</h3><br><br>
